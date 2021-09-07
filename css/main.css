@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body-left{
+    margin-top: 5%;
+    width: 35%;
+}
+#body-left h1{
+    color: #34499D;
+    font-weight: 700;
+}
+#body-left h2{
+    color: #06A6F0;
+    width: 480px;
+}
+#body-left input{
+    margin-right: 5%;
+    width: 120px;
+    background: linear-gradient(90deg, #0E5EF2 -4.47%, #3AB8FE 98.02%);
+    border-radius: 8px;
+}
+#body-left #log{
+    margin-top: 30%;
+}
+#body-left #log #log1{
+    width: 272px;
+}
+#body-left #log p{
+    width: 350px;
+}
+#body-left #log img{
+    height: 30px;
+    width: 30px;
+}
+#body-left #log #imgoogle{
+    margin-left: 30%;
+}
+#body-left #log #imfabook{
+    margin-left: 8%;
+}
+#body-right img{
+    margin-top: 15%;
+    width: 100%;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: 10%;
+}
+
+#footer ul{
+    display: flex;
+    margin-left: -10%;
+    margin-top: 1%;
+}
+#footer ul li{
+    list-style: none;
+    padding-left: 1%;
+    color: rgba(0, 0, 0, 0.2);
+
+}
+@media screen and (min-width: 768px) {
+    #header{
+        pointer-events: none;
+        opacity: 0;
+    }
+    #log2{
+        pointer-events: none;
+        opacity: 0;
+    }
+    #footer2{
+        pointer-events: none;
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    #body-left {
+        pointer-events: none;
+        opacity: 0;
+    }
+    #footer{
+        pointer-events: none;
+        opacity: 0;
+    }
+    #header img{
+        margin-top: 5%;
+        height: 50px;
+    }
+    #header #logo{
+        margin-top: 5%;
+        margin-left: 5%;
+        height: 50px;
+    }
+    #header #language{
+        float: right;
+    }
+    #log2{
+        text-align: center;
+    }
+    #log2 h2{
+        color: #06A6F0;
+    }
+    #log2 #log3{
+        width: auto;
+    }
+    #log2 #log3 input{
+        margin-left: 10%;
+        width: 120px;
+        background: linear-gradient(90deg, #0E5EF2 -4.47%, #3AB8FE 98.02%);
+        border-radius: 8px;
+    }
+    #log2 #log3 img{
+        height: 30px;
+        width: 30px;
+    }
+    #log2 #log3 #imgoogle{
+        margin-left: 10%;
+    }
+    #log2 #log3 #imfabook{
+        margin-left: 8%;
+    }
+    #footer2{
+        position: relative;
+        bottom: 0;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
+
